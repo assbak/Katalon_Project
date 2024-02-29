@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login avec des identifiants corrects</description>
+   <name>TC2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4aa3407-078d-49e5-9051-051ce7c89682</testCaseGuid>
+</TestCaseEntity>
