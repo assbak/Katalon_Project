@@ -31,6 +31,8 @@ WebUI.setMaskedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag 
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
 
+WebUI.verifyElementVisible(findTestObject('Page_Swag Labs/span_Products'))
+
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Open Menu'))
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_Logout'))

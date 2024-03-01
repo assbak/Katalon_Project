@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Login avec des identifiants corrects</description>
+   <description>Login avec un username correct et un password incorrect</description>
    <name>TC2</name>
    <tag></tag>
    <comment></comment>
