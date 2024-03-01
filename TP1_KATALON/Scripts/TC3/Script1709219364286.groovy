@@ -23,9 +23,9 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), GlobalVariable.ivusername)
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), invusername)
 
-WebUI.setMaskedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), GlobalVariable.password)
+WebUI.setMaskedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
 

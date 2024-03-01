@@ -23,11 +23,11 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Accepted usernames arestandard_userlock_f87578'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), GlobalVariable.username)
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), username)
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Password for all userssecret_sauce'))
 
-WebUI.setMaskedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), GlobalVariable.password)
+WebUI.setMaskedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
 
